@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zing Mp3</title>
+  <link rel="icon" href="https://www.apkmirror.com/wp-content/uploads/2017/06/5948853db395f-384x384.png" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="side_bar" class="col-md-2" style="background: rgb(35 27 46); height: 100vh">
+        <div class="logo px-2 pt-3">
+          <img src="https://phbao272.github.io/ZingMP3/assets/img/logo-dark.svg" width="120" alt="" />
+        </div>
+        <div>
+          <ul style="list-style: none" class="m-0 p-0 text-light">
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon me-2 fas fa-music" data-label-id="0"></i>
+                Cá nhân
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon me-2 fas fa-map-marked-alt" data-label-id="0"></i>
+                Khám phá
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon me-2 fas fa-globe" data-label-id="0"></i>
+                #zingchart
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon me-2 fas fa-podcast" data-label-id="0"></i>
+                Radio & Podcast
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="fas fa-compact-disc"></i>
+                Theo dõi
+              </div>
+            </li>
+          </ul>
+        </div>
+        <hr class="text-light" />
+        <div>
+          <ul style="list-style: none" class="m-0 p-0 text-light">
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon fas fa-headphones me-2"></i>
+                Nhạc mới
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon fas fa-th-large me-2"></i>
+                Thể loại
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="nav-item-icon far fa-star me-2"></i>
+                Top 100
+              </div>
+            </li>
+            <li>
+              <div class="nav-item">
+                <i class="fab fa-youtube-square me-2"></i>
+                MV
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="content" class="col-md-10">
+        <div id="header" class="row text-light d-flex align-items-center py-2">
+          <div class="col-md-6 d-flex justify-content-between align-items-center">
+            <div class="arrow w-25 text-center">
+              <i class="fas fa-arrow-left me-3"></i>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="search w-100">
+              <div class="box_search d-flex align-items-center">
+                <i class="fas fa-search me-2 fs-5"></i>
+                <input id="search" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV..." type="text" class="w-100" />
+              </div>
+            </div>
+          </div>
+          <div id="header_user" class="col-md-6">
+            <ul class="p-0 m-0 text-light d-flex align-items-center justify-content-end" style="list-style: none">
+              <li class="ms-4 fs-5">
+                <i class="fas fa-shirt"></i>
+              </li>
+              <li class="ms-4 fs-5">
+                <i class="fas fa-arrow-alt-circle-up"></i>
+              </li>
+              <li class="ms-4 fs-5">
+                <i class="fas fa-cog"></i>
+              </li>
+              <li class="ms-4 fs-5">
+                <img
+                  src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/278083970_1596442747398924_7645144444230225826_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=RmkNJuFagy0AX_dTvzR&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT9m0PUQHCGzutxfKaXmaSAdwpkgh7OkNdr1bA0S97g6ng&oe=6263C360"
+                  class="rounded-circle" width="40" height="40" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="user_profile" class="row py-4">
+          <div class="left col-md-6 text-light text-center">
+            <img class="rounded-circle"
+              src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/277561472_1583787875331078_4023961325792651065_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=ADLLfzaFlkcAX-yO_wt&_nc_ht=scontent.fsgn2-4.fna&oh=00_AT_cjvqwEpw8hEgRgt5QlfujHBLymsK5WFAaamDx_lZJvQ&oe=62632374"
+              width="150" height="150" alt="" />
+            <h3>Nam Lee</h3>
+          </div>
+          <div class="right col-md-6">
+            <ul style="list-style: none" class="d-flex justify-content-end">
+              <li style="border-radius: 20px; background: #f8e71c" class="me-4">
+                <a href="" class="text-decoration-none" style="color: rgb(32, 32, 32)">MUA VIP NGAY</a>
+              </li>
+              <li style="border-radius: 20px" class="me-4">
+                <a href="" class="text-decoration-none text-light">NHẬN CODE VIP</a>
+              </li>
+              <li class="me-4" style="border-radius: 50%">
+                <a href="" class="text-decoration-none text-light"><i class="fas fa-ellipsis-h"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="play_list" class="row text-light">
+          <div class="play-list-header d-flex align-items-center justify-content-between">
+            <h5>Bài hát <i class="fas fa-angle-right"></i></h5>
+            <div class="play-list-header-right">
+              <ul style="list-style: none" class="d-flex justify-content-end m-0">
+                <li style="border-radius: 20px; background: rgba(218, 218, 218, 0.173)" class="me-4 p-1 px-3">
+                  <a href="" class="text-decoration-none text-light"><i class="fas fa-angle-up"></i> TẢI LÊN</a>
+                </li>
+                <li style="border-radius: 20px; background: #7200a1" class="p-1 px-3">
+                  <a href="" class="text-decoration-none text-light"><i class="fas fa-caret-right"></i> PHÁT TẤT CẢ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="play-list-body mt-3">
+            <div class="row">
+              <div class="col-md-4 play-list-cd text-center">
+                <img id="song-avatar"
+                  src="https://photo-zmp3.zadn.vn/avatars/e/e/ee58fcc0ff45002b8d416bd7685809ce_1487040461.jpg"
+                  width="220" height="220" alt="" class="rounded-circle">
+              </div>
+              <div class="col-md-8 list-song">
+                <!-- <div class="song active mt-1">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="song-info d-flex align-items-center">
+                        <div style="position: relative;" class="song-thumbnail">
+                          <img src="https://i.scdn.co/image/ab67616d0000b27362dee5c4741a0a9287c690ca" alt="" width="40"
+                            height="40">
+                          <i class="fas fa-play"
+                            style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);"></i>
+                        </div>
+                        <div class="ms-3">
+                          <div class="song-name">
+                            Có chắc yêu là đây Onionn Remix
+                          </div>
+                          <div class="song-singer">
+                            Sơn Tùng MTP
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="song-time">
+                        <span>3:45</span>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="song-option">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-ellipsis-h ms-3"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <audio id="audio" src=""></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
